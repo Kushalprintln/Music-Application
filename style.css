@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins','sans-serif';
+    width: 100%;
+    height: 100vh;
+    background-color: #121213;
+    display: grid;
+    place-items: center;
+}
+main{
+    width: 85%;
+    height: 95%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+main .menu_side, .song_side{
+    width: 25%;
+    height: 90%;
+    /* border: 1px solid white; */
+    background-color: #111727;
+    box-shadow: 5px 0px 2px #090f1f;
+    color: #fff;
+}
+main .song_side{
+    width: 75%;
+    background-color: #0b1320;
+
+}
+main .master_play{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid white; */
+    background-color: #111727;
+    box-shadow: 0px 3px 8px #090f1f;
+}
+main .menu_side h1{
+    font-size: 20px;
+    margin: 15px 0px 0px 20px;
+    font-weight: 500;
+}
+main .menu_side .playlist{
+    margin: 40px 0px 0px 20px;
+}
+main .menu_side .playlist h4{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #4c5262;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+main .menu_side .playlist h4:hover{
+   color: #fff;
+}
+main .menu_side .playlist h4 span{
+   position: relative;
+   margin-right: 35px;
+}
+main .menu_side .playlist h4 span::before{
+   content: '';
+   position: absolute;
+   width: 4px;
+   height: 4px;
+   border: 2px solid #4c5262;
+   top: -4px;
+   border-radius: 50%;
+   transition: .3s linear;
+}
+main .menu_side .playlist h4:hover span::before{
+    border: 2px solid #fff;
+}
+main .menu_side .playlist h4 .bi{
+    display: none;
+}
+main .menu_side .playlist .active{
+    color: #36e2ec;
+}
+main .menu_side .playlist .active span{
+    display: none;
+}
+main .menu_side .playlist .active .bi{
+    display: flex;
+    margin-right: 20px;
+}
+main .menu_side .menu_song{
+    width: 100%;
+    height: 300px;
+    border: 1px solid white;
+    margin-top: 40px;
+}
+main .menu_side .menu_song li{
+    list-style-type: none;
+    position: relative;
+    padding: 5px 0px 5px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s linear;
+}
