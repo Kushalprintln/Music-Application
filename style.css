@@ -11,6 +11,7 @@ body{
     background-color: #121213;
     display: grid;
     place-items: center;
+    /* zoom: 100%; */
 }
 main{
     width: 85%;
@@ -174,7 +175,7 @@ main .master_play .wave .wave1:nth-child(3){
 }
 /* JavaScript classes */
 main .master_play .active1 .wave1{
-    animation: waave .5s linear infinite ;
+    animation: wave .5s linear infinite ;
 }
 main .master_play .active1 .wave1:nth-child(2){
     animation-delay: .4s;
@@ -464,6 +465,7 @@ main .song_side .content p{
    font-weight: 400;
    color: #4c5262;
    margin: 5px;
+   width: 50%;
 }
 main .song_side .content .buttons{
    margin-top: 15px;
