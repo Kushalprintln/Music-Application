@@ -15,7 +15,7 @@ const Album = [
         songname:"Faded",
         poster:"./Images/faded.jpg",
         lyrics:"You Were The Shadow To My Light Did You Feel Us Another Start You Fade Away Afraid Our Aim Is Out Of Sight Wanna See Us Alive",
-        song:"https://drive.google.com/uc?export=download&id=1OrUkYWAt0IjZS7fdNnvsO5QjwrBArlPW",
+        song:"https://drive.google.com/uc?export=download&id=1i8qsc3NwSqWCWyhncBZeGWJm1y3Wcpp7",
         singers:"Alan Walker, Iselin Solheim"
     },
     {
@@ -24,7 +24,7 @@ const Album = [
         songname:"Guli Mata",
         poster:"./Images/guli mata.jpg",
         lyrics:"Jagi Hu, Na Soi Hu Khayalon Mein Tere, Khoi Hu Jagi Hu, Na Soi Hu Khayalon Mein Tere, Khoi Hu Guli Mata Nchoufek Ana Mata",
-        song:"./Songs/Guli-Mata(PaglaSongs).mp3",
+        song:"https://drive.google.com/uc?export=download&id=1rgk3N7yahheMrhqSa3vCDokZWFv9Aw5q",
         singers:"Saad Lamjarred, Shreya Ghoshal"
     },
     {
@@ -33,7 +33,7 @@ const Album = [
         songname:"Yadav Brand 2",
         poster:"./Images/yadav brand.jpg",
         lyrics:"Maran ki baat kare tere ke Aukaat bahar re chora rao sahab ke Mazak thodi hai, Re jonsa bhi mahare beta haath laavega Saala pachtavega na sukh paavega sun kaan kholke",
-        song:"./Songs/Yadav-Brand-2(PaglaSongs).mp3",
+        song:"https://drive.google.com/uc?export=download&id=19CzeX56z7UEBi7wVAThTLKKx_F-ckzp2",
         singers:"Sunny Yaduvanshi, AK Rok"
     },
     {
@@ -42,7 +42,7 @@ const Album = [
         songname:"Kun Faaya Kun",
         poster:"./Images/kunfaya.jpg",
         lyrics:"Kadam badha le Haddon ko mita le Aaja khaalipan mein pee ka ghar tera Tere bin khaali aaja khaalipan mein Tere bin khaali aaja khaalipan mein",
-        song:"./Songs/Kun Faaya Kun - Rockstar 128 Kbps.mp3",
+        song:"https://drive.google.com/uc?export=download&id=1eSNFue3ob6l1MrWVwCnzwkxgZQnNNkWd",
         singers:"A.R. Rahman, Javed Ali, Mohit Chauhan"
     },
     {
@@ -51,7 +51,7 @@ const Album = [
         songname:"UnStopable",
         poster:"./Images/unstopable.jpeg",
         lyrics:"All smiles, I know what it takes to fool this town I'll do it 'til the sun goes down And all through the nighttime Oh, yeah",
-        song:"./Songs/Unstoppable-(PagalWorld).mp3",
+        song:"https://drive.google.com/uc?export=download&id=1NoPQHj5Jf082boneN4-ZoFPHe-wLxtfD",
         singers:"Sia"
     },
     {
@@ -60,7 +60,7 @@ const Album = [
         songname:"Believer",
         poster:"./Images/believer.jpg",
         lyrics:"First things first I'ma say all the words inside my head I'm fired up and tired of the way that things have been, oh-ooh The way that things have been, oh-ooh",
-        song:"./Songs/Believer---Imagine-Dragons-(PagalWorld).mp3",
+        song:"https://drive.google.com/uc?export=download&id=1fOC3FNuDYaMOmXJ77n-URuO2x24FFpNo",
         singers:"Imagine Dragons"
     },
     {
@@ -69,7 +69,7 @@ const Album = [
         songname:"Memories",
         poster:"./Images/memories.jpg",
         lyrics:"Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through",
-        song:"./Songs/Memories---Maroon-5-320-(PagalWorld).mp3",
+        song:"https://drive.google.com/uc?export=download&id=16cBD26qamU2cA_2gp51y-z8bADvUGePD",
         singers:"Maroon 5"
     },
     {
@@ -78,7 +78,7 @@ const Album = [
         songname:"Gasolina",
         poster:"./Images/gasolina.webp",
         lyrics:"Mamita, yo sé que tú no te me vas a quitar (duro) Lo que me gusta es que tú te dejas llevar (duro) To' los weekenes ella sale a vacilar (duro)",
-        song:"./Songs/Gasolina-(PagalWorld).mp3",
+        song:"https://drive.google.com/uc?export=download&id=1tg3j4QHVeX0hbfwmJpfAhKAby5OPVwhQ",
         singers:"Daddy Yankee"
     },
     {
@@ -87,7 +87,7 @@ const Album = [
         songname:"Criminal",
         poster:"./Images/criminal.jpg",
         lyrics:"He is a hustler, he's no good at all He is a loser, he's a bum-bum-bum-bum He lies, he bluffs, he's unreliable He's is a sucker with a gun-gun-gun-gun",
-        song:"./Songs/Criminal---Britney-Spears(PagalWorld).mp3",
+        song:"https://drive.google.com/uc?export=download&id=13YYm7ZhaJyi9vg1hkkqQmroJQVsZEA8d",
         singers:"Britney Spears"
     },
 ];
