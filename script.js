@@ -15,7 +15,7 @@ const Album = [
         songname:"Faded",
         poster:"./Images/faded.jpg",
         lyrics:"You Were The Shadow To My Light Did You Feel Us Another Start You Fade Away Afraid Our Aim Is Out Of Sight Wanna See Us Alive",
-        song:"./Songs/Faded(PaglaSongs).mp3",
+        song:"https://drive.google.com/uc?export=download&id=1OrUkYWAt0IjZS7fdNnvsO5QjwrBArlPW",
         singers:"Alan Walker, Iselin Solheim"
     },
     {
