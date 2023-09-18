@@ -143,6 +143,7 @@ function updatePopsong(){
 }
 updateMenusong();
 updatePopsong();
+
 let Playbtn = document.getElementById('masterplay');
 let wave = document.getElementById('wave');
 Playbtn.addEventListener('click',()=>{
@@ -175,6 +176,7 @@ function Pausetoplay(btn){
 // 1 BACKGROUD COLOR CHANGE OF THE SELECTED SONG;
 // 2 UPDATING SMALL PLAY BUTTON (NOT NESSECARRY);
 
+// SONG PLAYING FUNCTION
 let songArray = document.getElementsByClassName('songlist');
 Array.from(songArray).forEach((song)=>{
     song.addEventListener('click',(ele)=>{
@@ -209,6 +211,10 @@ function updatingTitles(obj){
     selectMain.innerText = obj.songname;
     lyrics.innerText = obj.lyrics;
 }
+function initialSelectedSong(song){
+    updatingTitles(song);
+}
+initialSelectedSong(Album[4]);
 
 
 //ADDING EVENT LISTENERS
@@ -290,6 +296,7 @@ function volumeSeekDotVolume(){
     vol_dot.style.left = `${vol.value}%`;
     music.volume = vol.value /100;
 }
+
 function updateVolumeIcon(){
     if(vol.value == 0){
         vol_icon.classList.remove('bi-volume-down-fill');
